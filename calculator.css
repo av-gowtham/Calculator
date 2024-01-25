@@ -55,8 +55,8 @@ body{
 }
 
 .clear{
-  grid-area: 5/2/6/4;
-  border-radius: 30px;
+  grid-area: 5/1/6/3;
+  border-radius: 20px;
 }
 
 .clear:hover{
