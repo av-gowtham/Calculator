@@ -78,7 +78,9 @@
       if(calculation){
         calculation=eval(calculation);
         displayCalculation();
-    
+
+        calculation = calculation.toString();
+        
         localStorage.setItem('calculation', calculation);
       }
     ">=</button>
