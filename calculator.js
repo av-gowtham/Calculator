@@ -14,3 +14,16 @@ function displayCalculation(){
   document.querySelector('.display-calculation')
     .innerHTML = calculation;
 }
+
+function displayCalculation(){
+  document.querySelector('.display-calculation')
+    .innerHTML = calculation;
+}
+
+const deleteElement = document.querySelector('.erase');
+
+deleteElement.addEventListener('click', () => {
+  calculation = calculation.slice(0, -1);
+  displayCalculation();
+  localStorage.setItem('calculation', calculation);
+});
