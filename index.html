@@ -75,11 +75,12 @@
     ">/</button>
 
     <button class="btn symbol" onclick="
-    calculation=eval(calculation);
-    displayCalculation();
-
-    localStorage.setItem('calculation', calculation);
-
+      if(calculation){
+        calculation=eval(calculation);
+        displayCalculation();
+    
+        localStorage.setItem('calculation', calculation);
+      }
     ">=</button>
 
     <button class="btn clear" onclick="
