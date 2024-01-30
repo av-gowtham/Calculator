@@ -2,6 +2,7 @@ let calculation= localStorage.getItem('calculation') || '';
 
 displayCalculation();
 
+// adding the character to calculation variable
 function calculator(num){
   calculation += num;
   displayCalculation();
