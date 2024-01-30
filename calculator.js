@@ -17,11 +17,6 @@ function displayCalculation(){
     .innerHTML = calculation;
 }
 
-function displayCalculation(){
-  document.querySelector('.display-calculation')
-    .innerHTML = calculation;
-}
-
 const deleteElement = document.querySelector('.erase');
 
 deleteElement.addEventListener('click', () => {
