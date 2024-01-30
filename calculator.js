@@ -1,3 +1,4 @@
+// getting the stored value if it is not there then we assigne a empty string
 let calculation= localStorage.getItem('calculation') || '';
 
 displayCalculation();
